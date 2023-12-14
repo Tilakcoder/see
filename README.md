@@ -8,7 +8,6 @@ See is a groundbreaking software project designed to empower users to interact w
 
 * Gesture Recognition: Control your computer effortlessly with facial movements. Navigate menus, scroll, and perform basic tasks seamlessly.
 * Voice Commands: Speak naturally to command your computer. Execute tasks, open applications, and perform actions with intuitive voice commands.
-
 * Accessibility: Improve accessibility for users with mobility challenges. See offers a more inclusive computing experience by reducing reliance on traditional input devices.
 * Customizable Actions: Tailor See to your needs by customizing gestures and voice commands. Define actions that align with your workflow for a personalized computing experience.
 
@@ -26,10 +25,9 @@ Intuitive and customizable controls for a personalized user experience.
 
 * Clone the repository:
 
-```
-git clone https://github.com/Tilakcoder/see.git
-```
-
+  ```
+  git clone https://github.com/Tilakcoder/see.git
+  ```
 * Create virtual Environment
 
   ```
