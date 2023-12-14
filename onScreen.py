@@ -7,6 +7,7 @@ class ScreenLabel():
         self.root.wm_attributes("-topmost", True)
         self.root.attributes('-fullscreen',True)
         self.should_close = False
+        self.curs = '  '
     
     def start(self):
         self.root = Tk()
@@ -52,6 +53,7 @@ class ScreenLabel():
         self.items.append(label)
     
     def addCursor(self, x=0.5, y=0.5, t='  '):
+        t = self.curs
         label = Label(self.root, text=t, font= ('Helvetica 12 bold'), foreground= "red3")
         label.place(relx = x, rely = y)
         self.cursor = label

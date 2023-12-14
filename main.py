@@ -176,7 +176,9 @@ def track():
 
 def litsen():
     while True:
+        label.curs = "  "
         if voice.getRecord(0.25, trig=True):
+            label.curs = " R "
             command = voice.text(voice.audio_from_mic())
             command = command.lower()
             getContext = extract_digit_after_a(command)
@@ -192,6 +194,7 @@ def litsen():
                 pyautogui.click()
             
             if 'type' in command:
+                label.curs = " T "
                 text = voice.text(voice.audio_from_mic(10))
                 pyautogui.typewrite(text)
             elif 'press' in command:
